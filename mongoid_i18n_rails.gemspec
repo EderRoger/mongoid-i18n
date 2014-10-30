@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files = Dir.glob("rails/locale/*") + Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.1"
+  s.add_runtime_dependency('i18n', '~> 0.6')
+  s.add_runtime_dependency('railties', '~> 4.0')
 end
