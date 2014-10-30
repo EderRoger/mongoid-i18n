@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "mongoid_i18n/version"
+require "mongoid_i18n_rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "mongoid_i18n"
-  s.version     = MongoidI18n::VERSION
+  s.name        = "mongoid_i18n_rails"
+  s.version     = MongoidI18nRails::VERSION
   s.authors     = ["Leandro Moreira"]
   s.email       = ["leandro.ribeiro.moreira@gmail.com"]
   s.homepage    = "https://github.com/leandromoreira/mongoid-i18n"
