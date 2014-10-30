@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "Provides i18n for mongoid 4 for Rails 4."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib,rails}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir.glob("rails/locale/*") + Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.1"
